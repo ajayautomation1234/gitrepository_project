@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="page_class.orange.myinfo_test">
+        <methods>
+          <include name="tear_down"/>
+          <include name="myinfo_initi"/>
+          <include name="myinfo_initialize"/>
+        </methods>
+      </class> <!-- page_class.orange.myinfo_test -->
+      <class name="page_class.orange.login_test">
+        <methods>
+          <include name="verifylogin"/>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- page_class.orange.login_test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
